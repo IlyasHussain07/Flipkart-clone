@@ -1,0 +1,171 @@
+.main{
+    background: #f0f0f0;
+}
+.main__desktop{
+    display: flex;
+    padding: 10px;
+}
+.main__navbar{
+    max-width: 250px;
+    width: 100%;
+    border: 1px solid gainsboro;
+    background: #fff;
+    margin-right: 20px;
+    height: 88vh;
+}
+.main__navbar__header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-bottom: 2px solid gainsboro;
+}
+.main__filter{
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.main__clear{
+    font-size: 16px;
+    font-weight: 500;
+    color: blue;
+    cursor: pointer;
+}
+.main__label{
+    padding: 10px;
+    border-bottom: 1px solid gainsboro;
+    width: 90%;
+    display: block;
+}
+.main__navbar__details{
+    padding: 10px;
+    border-bottom: 1px solid gainsboro;
+}
+
+
+.main__main{
+   background: #fff;
+   width: 100%;
+}
+.main__header{
+    padding: 10px;
+    border-bottom: 2px solid gainsboro;
+}
+.main__header p{
+    font-size: 14px;
+    color: #948e8e;
+}
+.main__header span{
+    display: flex;
+    margin-top: -25px;
+    align-items: center;
+}
+.main__body{
+    padding: 20px;
+}
+.main__products{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.main__mobile{
+    display: none;
+}
+
+
+.main__mobile__title{
+    background: #fff;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+@media(max-width : 768px){
+    .main__desktop{
+        display: none;
+    }
+    .main__mobile{
+        display: block;
+    }
+}
+
+
+
+/* Payment */
+
+.payment{
+    width: 100%;
+    height: 100vh;
+    background: #f0f0f0;
+    display: flex;
+    justify-content: center;
+}
+.payment__master{
+    max-width: 1000px;
+    width: 100%;
+    height: 390px;
+    background: #fff;
+    border: 1px solid gainsboro;
+    margin-top: 30px;
+}
+.payment__header{
+    background: #2874f0;
+    color: #fff;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+
+}
+.payment__header button{
+    width: 50px;
+    height: 30px;
+    margin-right: 20px;
+}
+.payment__body{
+    padding: 30px;
+    font-size: 20px;
+    border-bottom: 2px solid gainsboro;
+}
+.payment__body p{
+    color: red;
+    animation: anim1 2s infinite;
+}
+
+@keyframes anim1 {
+    0%{
+        color: red;
+    }
+    25%{
+        color: pink;
+    }
+    50%{
+        color: green;
+    }
+    75%{
+        color: yellow;
+    }
+    100%{
+        color: red;
+    }
+}
+.payment__button{
+    padding: 30px;
+}
+.payment__button button{
+    background: #fb641b;
+    color: #fff;
+    border: 1px solid #fb641b;
+    width: 200px;
+    height: 40px;
+    float: right;
+    cursor: pointer;
+
+}
+.payment__button button:hover{
+    background: #f1570a;
+}
+.labels{
+    color: #c2c2c2;
+}

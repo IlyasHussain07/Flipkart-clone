@@ -1,0 +1,24 @@
+.master__product__main{
+    margin-right: 50px;
+    cursor: pointer;
+}
+.master__product{
+    background: #fff;
+    max-width: 300px;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    margin-right: 50px;
+}
+.master__product__cont{
+    text-align: center;
+}
+.master__product__cont img{
+    width: 60px;
+}
+.master__product__green{
+    color: green;
+}
+.master__product__gray{
+    color: #757474;
+}
