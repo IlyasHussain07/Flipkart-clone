@@ -161,24 +161,24 @@ export default function Master() {
                         <div className='mobile__products__display__body'>
                             <div className='mobile__products'>
                                 <div className='mobile__image'>
-                                    <img src={Image4} alt="image4" />
+                                    <Link to='/accessories'><img src={Image4} alt="image4" /></Link>
                                     <span className='mobile__disp__title'>Top Picks</span><br></br>
                                     <span className='mobile__disp__offer'>Min. 70% Off</span>
                                 </div>
                                 <div className='mobile__image'>
-                                    <img src={Image5} alt="image5" />
+                                    <Link to='/accessories'><img src={Image5} alt="image5" /></Link>
                                     <span className='mobile__disp__title'>Explore Now</span><br></br>
                                     <span className='mobile__disp__offer'>Up to 50% Off</span>
                                 </div>
                             </div>
                             <div className='mobile__products'>
                                 <div className='mobile__image'>
-                                    <img src={Image6} alt="image6" />
+                                    <Link to='/accessories'><img src={Image6} alt="image6" /></Link>
                                     <span className='mobile__disp__title'>Headphones</span><br></br>
                                     <span className='mobile__disp__offer'>SONY</span>
                                 </div>
                                 <div className='mobile__image'>
-                                    <img src={Image7} alt="image7" />
+                                    <Link to='/accessories'><img src={Image7} alt="image7" /></Link>
                                     <span className='mobile__disp__title'>Headphones</span><br></br>
                                     <span className='mobile__disp__offer'>Extra 10% Off</span>
                                 </div>
@@ -200,24 +200,24 @@ export default function Master() {
                         <div className='mobile__products__display__body'>
                             <div className='mobile__products'>
                                 <div className='mobile__image'>
-                                    <img src={Image8} alt="image8" />
+                                    <Link to='/fashion'><img src={Image8} alt="image8" /></Link>
                                     <span className='mobile__disp__title'>Dress Materials</span><br></br>
                                     <span className='mobile__disp__offer'>Extra 10% Off</span>
                                 </div>
                                 <div className='mobile__image'>
-                                    <img src={Image16} alt="image16" />
+                                    <Link to='/fashion'><img src={Image16} alt="image16" /></Link>
                                     <span className='mobile__disp__title'>Women's Sarees</span><br></br>
                                     <span className='mobile__disp__offer'>Min. 70% Off</span>
                                 </div>
                             </div>
                             <div className='mobile__products'>
                                 <div className='mobile__image'>
-                                    <img src={Image19} alt="image19" />
+                                    <Link to='/fashion'><img src={Image19} alt="image19" /></Link>
                                     <span className='mobile__disp__title'>Best Sarees</span><br></br>
                                     <span className='mobile__disp__offer'>Extra 25% Off</span>
                                 </div>
                                 <div className='mobile__image'>
-                                    <img src={Image36} alt="image36" />
+                                    <Link to='/fashion'><img src={Image36} alt="image36" /></Link>
                                     <span className='mobile__disp__title'>Top Dresses & more</span><br></br>
                                     <span className='mobile__disp__offer'>Min 60% Off</span>
                                 </div>
@@ -239,24 +239,24 @@ export default function Master() {
                         <div className='mobile__products__display__body'>
                             <div className='mobile__products'>
                                 <div className='mobile__image'>
-                                    <img src={Image37} alt="image37" />
+                                    <Link to='/electronics'><img src={Image37} alt="image37" /></Link>
                                     <span className='mobile__disp__title'>Top Picks</span><br></br>
                                     <span className='mobile__disp__offer'>Min. 70% Off</span>
                                 </div>
                                 <div className='mobile__image'>
-                                    <img src={Image38} alt="image38" />
+                                    <Link to='/electronics'><img src={Image38} alt="image38" /></Link>
                                     <span className='mobile__disp__title'>Explore Now</span><br></br>
                                     <span className='mobile__disp__offer'>Up to 50% Off</span>
                                 </div>
                             </div>
                             <div className='mobile__products'>
                                 <div className='mobile__image'>
-                                    <img src={Image39} alt="image39" />
+                                    <Link to='/electronics'><img src={Image39} alt="image39" /></Link>
                                     <span className='mobile__disp__title'>Headphones</span><br></br>
                                     <span className='mobile__disp__offer'>SONY</span>
                                 </div>
                                 <div className='mobile__image'>
-                                    <img src={Image40} alt="image40" />
+                                    <Link to='/electronics'><img src={Image40} alt="image40" /></Link>
                                     <span className='mobile__disp__title'>Headphones</span><br></br>
                                     <span className='mobile__disp__offer'>Extra 10% Off</span>
                                 </div>
